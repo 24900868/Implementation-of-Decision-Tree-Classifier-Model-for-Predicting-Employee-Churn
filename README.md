@@ -8,11 +8,12 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+```
+1.  Import pandas
+ 2. Import Decision tree classifier
+ 3. Fit the data in the model
+ 4. Find the accuracy score
+```
 ## Program:
 ```
 /*
@@ -51,9 +52,10 @@ import matplotlib.pyplot as plt
 plt.figure(figsize=(8,6))
 plot_tree(dt, feature_names=x.columns, class_names=['salary' , 'left'],filled=True) 
 plt.show()  ```
-
+```
 ## Output:
 ![decision tree classifier model](sam.png)
+```
 	satisfaction_level	last_evaluation	number_project	average_montly_hours	time_spend_company	Work_accident	left	promotion_last_5years	Departments	salary
 0	0.38	0.53	2	157	3	0	1	0	sales	low
 1	0.80	0.86	5	262	6	0	1	0	sales	medium
@@ -115,7 +117,7 @@ satisfaction_level	last_evaluation	number_project	average_montly_hours	time_spen
 C:\ProgramData\anaconda3\Lib\site-packages\sklearn\base.py:439: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
   warnings.warn(
 array([0], dtype=int64)
-
+```
 ![Screenshot 2024-11-29 084049](https://github.com/user-attachments/assets/e9170072-ecb8-410c-b8b1-5f2197ac5c4c)
 
 
